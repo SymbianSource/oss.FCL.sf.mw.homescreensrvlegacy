@@ -21,3 +21,5 @@ SUBDIRS  += ai_content_model_api \
 
 CONFIG += ordered
 
+BLD_INF_RULES.prj_exports += "$${LITERAL_HASH}include <platform_paths.hrh>"
+BLD_INF_RULES.prj_exports += "$${LITERAL_HASH}include \"content_harvester_plugin_api/group/bld.inf\""
